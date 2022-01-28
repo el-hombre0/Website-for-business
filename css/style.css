@@ -29,6 +29,10 @@ body {
   color: #5e5e5e; /*цвет шрифта*/
 }
 
+header {
+  font-family: "Roboto", sans-serif;
+}
+
 .header__top {
   background-color: #303030;
 }
@@ -43,7 +47,7 @@ body {
   font-style: 16px;
 }
 
-.headet__btn:after {
+.header__contacts:after {
   content: "";
   clear: both;
   display: block;
@@ -52,4 +56,14 @@ body {
 .header__phone,
 .header__email {
   color: #cbcacb;
+  letter-spacing: 0.25px; /*расстояние между буквами*/
+  line-height: 45px; /*выравнивает черную полосу по высоте кнопки бесплаьная консультация*/
+}
+
+.header__phone{
+    padding: 0 30px 0 20px;
+}
+
+.header__email{
+    padding: 0 0 0 24px;
 }
